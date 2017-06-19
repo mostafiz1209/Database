@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:textSize="40sp"
+        android:textAlignment="textEnd"
+        android:padding="20dp"
+        />
+
+
+
+
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    tools:context="myappsapps.com.gridlayoutdemo.MainActivity">
+
+
+
+    <Button android:text="clear"
+        android:id="@+id/btn1"
+        android:layout_gravity="left" />
+
+
+    <Button android:text="sqrt"
+        android:id="@+id/btn2"
+        android:layout_columnSpan="3"
+        android:layout_gravity="end"
+        />
+
+    <Button android:text="1"
+        android:id="@+id/btn3"/>
+    <Button android:text="2"
+        android:id="@+id/btn4"/>
+    <Button android:text="3"
+        android:id="@+id/btn5"/>
+    <Button android:text="+"
+        android:id="@+id/btn6"/>
+    <Button android:text="4"
+        android:id="@+id/btn7"/>
+    <Button android:text="5"
+        android:id="@+id/btn8"/>
+    <Button android:text="6"
+        android:id="@+id/btn9"/>
+    <Button android:text="-"
+        android:id="@+id/btn10"/>
+    <Button android:text="7"
+        android:id="@+id/btn11"/>
+    <Button android:text="8"
+        android:id="@+id/btn12"/>
+    <Button android:text="9"
+        android:id="@+id/btn13"/>
+    <Button android:text="x"
+        android:id="@+id/btn14"/>
+    <Button android:text="0"
+        android:id="@+id/btn15"/>
+    <Button android:text="."
+        android:id="@+id/btn16"/>
+    <Button android:text="="
+        android:id="@+id/btn17"/>
+    <Button android:text="/"
+        android:id="@+id/btn18"/>
+
+
+</GridLayout>
+</LinearLayout>

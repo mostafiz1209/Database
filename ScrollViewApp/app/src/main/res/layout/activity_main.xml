@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="myappsapps.com.scrollviewapp.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="The modifier final designates that the identifier FEE is a constant, and the modifier
+static designates that it is a class constant. The reserved word static is used to declare
+class components, such as class variables and class methods. The inclusion of
+the reserved word static in the declaration of the main method indicates that it is a
+class method. It is not so frequent that we use class variables and class methods
+(except, of course, the main method), and we will not be seeing their examples until
+later in the book.
+Before we move to another example, consider the following (problematic)
+declaration:
+class AccountVer3 {
+private final double FEE = 0.50;
+//the rest is the same
+}
+This declaration is not an error, but it is inefficient. If FEE is declared as a class constant,
+then there will be one copy for the class, and this single copy is shared by all instances
+of the class. If FEE is declared without the static modifier, then it is an instance
+constant. This means every instance of the class will have its own copy of the same
+value. For example, instead of one copy of the value 0.50, there will be 100 copies of
+the same value 0.50 if there are 100 instances of the class. So, to make effective use
+of a memory, when we declare a data member as a constant, it should be declared as
+a class constant. This problem was introduced in Chapter 1, and Figure 1.9 illustrates!" />
+    </ScrollView>
+</RelativeLayout>
+

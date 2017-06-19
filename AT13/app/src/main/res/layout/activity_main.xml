@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="65.5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="E-mail:" />
+
+    <EditText
+        android:id="@+id/emailTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/emailTextView"
+        android:gravity="center"
+        android:text="e  m  a  i  l"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/passwordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailTextView"
+        android:layout_marginTop="10dp"
+        android:text="Password:" />
+
+    <EditText
+        android:id="@+id/paswordTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/emailTextField"
+        android:layout_toRightOf="@id/passwordTextView"
+        android:gravity="center"
+        android:text="p  a  s  s  w  o  r  d"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordTextView"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Sign In" />
+
+
+</RelativeLayout>

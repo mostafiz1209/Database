@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+<item android:id="@+id/hi"
+    android:title="Hi"
+    android:orderInCategory="100"
+    app:showAsAction="always"
+    android:icon="@drawable/icce"/>
+
+    <item android:id="@+id/hello"
+        android:title="Hello"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+       />
+    <item android:id="@+id/bye"
+        android:title="Bye"
+        android:orderInCategory="102"
+        app:showAsAction="never"/>
+    <item android:id="@+id/good"
+        android:title="Good"
+        android:orderInCategory="103"
+        app:showAsAction="never"/>
+</menu>
